@@ -1,0 +1,80 @@
+@media screen and (max-width:992px){
+    .Navlist-div{
+        display: flex;
+        justify-content: flex-start !important;
+        background-color: black !important;
+        opacity: 0.8;
+    }
+    .logo-img{
+        width: 40px;
+    }
+    .Navlist-div ul li{
+        padding-right: 0px !important;
+        padding-left: 20px !important;
+    }
+    .Navlist-div ul li a:hover::before {
+        width: 0%;
+    }
+    .name{
+        padding-top: 100px !important;
+        text-align: center;
+    }
+    .bg-skills{
+        display: none;
+    }
+    .bg-color{
+            background-color: black;
+            color: white;
+    }
+    .bg-contact{
+        height: 280px;
+    }
+    .contactlist ul li{
+        line-height: 45px;
+    }
+    
+}
+
+@media screen and (max-width:767px){
+    .myinfo{
+       justify-content: flex-start;
+    }
+    .bg-contact{
+        display: none;
+    }
+    .contactlist ul li{
+        line-height: 55px;
+    }
+    .contactlist ul li a , .contactlist ul li span{
+        font-size: 20px !important;
+    }
+    .contact h1{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width:450px){
+    .name h1 {
+        color: blueviolet;
+        font-family: 'Young Serif', serif;
+        font-size: 36px;
+    }
+    
+    .name h2 {
+        color: rgb(68, 67, 67);
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width:350px){
+    .header-name{
+        font-size: 18px;
+    }
+    .Mybtns{
+        display: flex;
+        flex-direction: column;
+    }
+    .more-about{
+        margin-right: 0px !important;
+    }
+}

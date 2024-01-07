@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Media.css">
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="calculator-div">
+            <div class="inputdiv ">
+                <input type="text" class="inputfield px-3" id="inputnum" placeholder="0">
+            </div>
+            <div class="Numberdiv">
+                <div style="width: 90%;">
+                    <button type="button" class="btn NumBtn mb-3" onclick="InputNum(9)">9</button>
+                    <button type="button" class="btn NumBtn mb-3" onclick="InputNum(8)">8</button>
+                    <button type="button" class="btn NumBtn mb-3" onclick="InputNum(7)">7</button>
+                    <button type="button" class="btn NumBtn mb-3" onclick="InputNum('+')">+</button>
+                </div>
+                <div style="width: 90%;">
+                    <button type="button" class="btn NumBtn mb-3" onclick="InputNum(6)">6</button>
+                    <button type="button" class="btn NumBtn mb-3" onclick="InputNum(5)">5</button>
+                    <button type="button" class="btn NumBtn mb-3" onclick="InputNum(4)">4</button>
+                    <button type="button" class="btn NumBtn mb-3" onclick="InputNum('-')">-</button>
+                </div>
+                <div style="width: 90%;">
+                    <button type="button" class="btn NumBtn mb-3 " onclick="InputNum(3)">3</button>
+                    <button type="button" class="btn NumBtn mb-3 " onclick="InputNum(2)">2</button>
+                    <button type="button" class="btn NumBtn mb-3 " onclick="InputNum(1)">1</button>
+                    <button type="button" class="btn NumBtn mb-3" onclick="InputNum('*')">*</button>
+                </div>
+                <div style="width: 90%;">
+                    <button type="button" class="btn NumBtn mb-3 " onclick="InputNum(0)">0</button>
+                    <button type="button" class="btn NumBtn mb-3 " onclick="InputNum('/')">/</button>
+                    <button type="button" class="btn NumBtn mb-3 " onclick="clearAll()">C</button>
+                    <button type="button" class="btn NumBtn mb-3" onclick="Remove()">X</button>
+                </div>
+                <div style="width: 90%;">
+                    <button type="button" class="btn Result mb-3 w-100 fs-4" onclick="result()">=</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.qualities{
+    background-color: #353535;
+    border-radius: 5px;
+}
+.qualities ul li{
+    list-style: thai;
+    margin-bottom: 10px;
+}
+.qualities ul li h6{
+    color: blueviolet;
+}
+.quaidimg{
+    height: 270px;
+    width: 350px;
+}

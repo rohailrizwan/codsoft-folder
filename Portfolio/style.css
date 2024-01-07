@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Navbar {
+    height: 60px;
+    width: 100%;
+    background-color: black !important;
+}
+
+.logo-img {
+    border-radius: 50%;
+    height: 40px;
+    width: 55px;
+}
+
+.header-name {
+    color: white;
+    font-family: 'Young Serif', serif;
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Navlist-div {
+    display: flex;
+    justify-content: end !important;
+}
+
+.Navlist-div ul li {
+    list-style: none;
+}
+
+.Navlist-div ul li {
+    padding-right: 30px !important;
+}
+
+.Navlist-div ul li a {
+    color: blueviolet !important;
+    position: relative;
+    text-decoration: none;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.Navlist-div ul li a::before {
+    content: '';
+    background-color: white;
+    position: absolute;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    top: 33px;
+    transition: width 0.3s ease-in-out;
+}
+
+.Navlist-div ul li a:hover::before {
+    width: 100%;
+}
+
+.name h1 {
+    color: blueviolet;
+    font-family: 'Young Serif', serif;
+    font-size: 48px;
+}
+
+.name h2 {
+    color: rgb(68, 67, 67);
+    font-size: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition:  0.5s ease-in
+}
+.h2-show h2 {
+    opacity: 1;
+    visibility: visible;
+}
+.portfolio-image{
+    height: 400px;
+    border-radius: 25px;
+}
+.more-about{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.Frontend h1{
+    color: black;
+    font-family: 'Bitter', serif;
+    padding-top: 30px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.Frontend h1::after{
+    position: absolute;
+    content: '';
+    background-color: blueviolet;
+    height: 2px;
+    width: 40%;
+    left: 0;
+    top: 15px;
+}
+.Frontend p{
+    color: blueviolet;
+    font-weight: 400;
+}
+.myinfo{
+   display: flex;
+   justify-content: center;
+}
+.myinfo ul li{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
+    list-style:georgian !important;
+}
+.myinfo ul li span{
+    color: blueviolet;
+    font-weight: bold;
+}
+.Myskills{
+    color: blueviolet;
+    font-weight: 700;
+    font-family: 'Young Serif', serif;
+    letter-spacing: 5px;
+}
+.html h1,.css h1,.js h1,.ts h1,.React h1, .Node h1{
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+}
+.project-heading h1{
+        color: blueviolet;
+        font-family: 'Bitter', serif;
+        position: relative;
+        font-weight: bold;
+        letter-spacing: 5px;
+        margin-bottom: 50px;
+}
+.weather-card,.Quizapp{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px blueviolet
+}
+.Landing-card,.Reactapp,.TodoApp{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px blueviolet
+}
+.weather-card h3{
+    color: blue;
+    font-weight: 700;
+}
+.Landing-card h3{
+    color: red;
+    font-weight: 700;
+}
+.Quizapp h3{
+    color: darkcyan;
+    font-weight: 700;
+}
+.Reactapp h3{
+    color: blueviolet;
+    font-weight: 700;
+}
+.TodoApp h3{
+    font-weight: 700;
+    color: brown;
+}
+.contact h1{
+    color: blueviolet;
+    font-weight: 700;
+    font-family: 'Young Serif', serif;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+.contactlist ul li{
+    line-height: 65px;
+    padding-left: 0px !important;
+}
+.contactlist ul li a,.contactlist ul li span{
+    text-decoration: none;
+    color: gray;
+}
+.bg-contact{
+    background-image: url('./images/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+}
+.resumebtn{
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
